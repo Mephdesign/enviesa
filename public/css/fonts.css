@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Sansation-Light';
+  src: url("../common/fonts/sansation/Sansation_Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Sansation-Bold';
+  src: url("../common/fonts/sansation/Sansation_Bold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url("../common/fonts/lato/Lato-Light.ttf");
+  font-weight: 300;
+}

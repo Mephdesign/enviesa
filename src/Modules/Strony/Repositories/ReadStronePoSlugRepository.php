@@ -23,7 +23,6 @@ class ReadStronePoSlugRepository implements ReadStronePoSlugRepositoryContract
             ->select($cols)
             ->where('slug',$slug)
             ->first();
-
         return $strona;
     }
 }
