@@ -52,7 +52,7 @@
         /* Media Queries: Dla mniejszych ekranów */
         @media (max-width: 576px) {
             .logo-container img {
-                max-width: 150px; /* Zmniejszenie logo na urządzeniach mobilnych */
+                max-width: 250px; /* Zmniejszenie logo na urządzeniach mobilnych */
             }
         }
     </style>
