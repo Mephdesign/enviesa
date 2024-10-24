@@ -38,12 +38,22 @@
         main {
             flex-grow: 1;
         }
+        /* Dostosowanie wielkości logo */
+        .logo-container img {
+            max-width: 300px; /* Maksymalna szerokość logo */
+        }
 
         footer {
             background-color: #222;
-            position: sticky;
-            bottom: 0;
+            margin-top: auto; /* Pozwala stopce przyklejać się do dołu strony */
             width: 100%;
+        }
+
+        /* Media Queries: Dla mniejszych ekranów */
+        @media (max-width: 576px) {
+            .logo-container img {
+                max-width: 150px; /* Zmniejszenie logo na urządzeniach mobilnych */
+            }
         }
     </style>
 </head>
