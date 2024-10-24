@@ -61,8 +61,8 @@
 
 <!-- Header -->
 <header class="py-3 text-center">
-    <div class="container">
-        <img src="{{ asset('common/logos/logo-white.png') }}" alt="Enviesa" style="max-width: 450px;">
+    <div class="container logo-container">
+        <img src="{{ asset('common/logos/logo-white.png') }}" alt="Enviesa">
     </div>
 </header>
 
