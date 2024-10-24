@@ -24,7 +24,18 @@ class StronyController extends Controller
     ) {
     }
 
+    public function pobierzStroneGlowna()
+    {
+        $strona = $this->queryBus->ask(
+            new PobierzStronePoSlugQuery(
+                slug: 'home'
+            )
+        );
 
+        return view('front.strona', [
+            'strona' => $strona,
+        ]);
+    }
     public function pobierzStronePoSlug(string $slug)
     {
         $strona = $this->queryBus->ask(

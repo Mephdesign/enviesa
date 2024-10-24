@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enviesa</title>
 
     <link rel="stylesheet" href="{{ asset('css/fonts.css')}}" />
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+{{--    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />--}}
+    <link rel="stylesheet" href="{{ asset('css/styles/styles.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/styles/offer.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/styles/homepage.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/styles/projects.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/styles/contact.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/styles/projects.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/flickity/flickity.css') }}" />
-
-    <script src="{{ asset('js/flickity/flickity.pkgd.min.js') }}" defer></script>
-    <script src="{{ asset('js/script.js') }}" defer></script>
 </head>
 <body>
 <div class="container">
@@ -18,12 +21,12 @@
         <div class="wrapper">
             <div class="topBar">
                 <h1>
-                    <a href="index.html">
-                        <img src="{{ asset('common/logos/logo-white.png') }}" alt="Enviesa">
+                    <a href="/">
+                        <img src="common/logos/logo-white.png" alt="Enviesa">
                     </a>
                 </h1>
 
-                <nav>
+                <nav id="mainMenu">
                     <ul>
                         <li>
                             <a href="/oferta">Oferta</a>
@@ -38,16 +41,11 @@
                             <a href="/kontakt">Kontakt</a>
                         </li>
                     </ul>
-
-                    <ul class="language">
-                        <li>
-                            <a href="#" class="active">PL</a>
-                        </li>
-                        <li>
-                            <a href="#">EN</a>
-                        </li>
-                    </ul>
                 </nav>
+
+                <div class="mobileMenu" id="mobileMenu">
+                    <span class="burger"></span>
+                </div>
 
             </div>
 
@@ -82,9 +80,9 @@
             </div>
 
             <div class="socials">
-                <i class="icon"><img src="../common/icons/icons8-facebook-144.png" alt="Enviesa Facebook"></i>
-                <i class="icon"><img src="../common/icons/icons8-linkedin-144.png" alt="Enviesa LinkedIn"></i>
-                <i class="icon"><img src="../common/icons/icons8-instagram-144.png" alt="Enviesa Instagram"></i></div>
+                <i class="icon"><img src="common/icons/icons8-facebook-144.png" alt="Enviesa Facebook"></i>
+                <i class="icon"><img src="common/icons/icons8-linkedin-144.png" alt="Enviesa LinkedIn"></i>
+                <i class="icon"><img src="common/icons/icons8-instagram-144.png" alt="Enviesa Instagram"></i></div>
         </div>
 
         <div class="separator"></div>
@@ -94,4 +92,9 @@
     </footer>
 </div>
 </body>
+
+    <script src="{{ asset('js/flickity.pkgd.min.js') }}" defer></script>
+    <script src="{{ asset('js/script.js') }}" defer></script>
+    <script src="{{ asset('js/flicky.script.js') }}" defer></script>
+
 </html>
