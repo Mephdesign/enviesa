@@ -22,32 +22,31 @@
                         <img src="{{ asset('common/logos/logo-white.png') }}" alt="Enviesa">
                     </a>
                 </h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/oferta">Oferta</a>
+                        </li>
+                        <li>
+                            <a href="/realizacje">Realizacje</a>
+                        </li>
+                        <li>
+                            <a href="/o-nas">O nas</a>
+                        </li>
+                        <li>
+                            <a href="/kontakt">Kontakt</a>
+                        </li>
+                    </ul>
 
-{{--                <nav>--}}
-{{--                    <ul>--}}
-{{--                        <li>--}}
-{{--                            <a href="/oferta">Oferta</a>--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <a href="/realizacje">Realizacje</a>--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <a href="/o-nas">O nas</a>--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <a href="/kontakt">Kontakt</a>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
-
-{{--                    <ul class="language">--}}
-{{--                        <li>--}}
-{{--                            <a href="#" class="active">PL</a>--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <a href="#">EN</a>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
-{{--                </nav>--}}
+                    <ul class="language">
+                        <li>
+                            <a href="#" class="active">PL</a>
+                        </li>
+                        <li>
+                            <a href="#">EN</a>
+                        </li>
+                    </ul>
+                </nav>
 
             </div>
 
@@ -59,28 +58,32 @@
     </header>
     <div class="wrapper">
 
-{{--        <section class="blocks">--}}
-{{--            <div class="block">--}}
-{{--                <div class="icon">--}}
-{{--                    <img src="../common/icons/icons8-automotive-100.png" alt="Przygotowanie inwestycji i dział prawny">--}}
-{{--                </div>--}}
-{{--                <h3>Przygotowanie inwestycji i dział prawny</h3>--}}
-{{--            </div>--}}
+        <section class="blocks">
+            <div class="block">
+                <div class="icon">
+                    <img src="../common/icons/icons8-automotive-100.png" alt="Przygotowanie inwestycji i dział prawny">
+                </div>
+                <h3>Przygotowanie inwestycji i dział prawny</h3>
+            </div>
 
-{{--            <div class="block">--}}
-{{--                <div class="icon">--}}
-{{--                    <img src="../common/icons/icons8-oil-industry-100.png" alt="Pracownia projektowa">--}}
-{{--                </div>--}}
-{{--                <h3>Pracownia projektowa</h3>--}}
-{{--            </div>--}}
+            <div class="block">
+                <div class="icon">
+                    <img src="../common/icons/icons8-oil-industry-100.png" alt="Pracownia projektowa">
+                </div>
+                <h3>Pracownia projektowa</h3>
+            </div>
 
-{{--            <div class="block">--}}
-{{--                <div class="icon">--}}
-{{--                    <img src="../common/icons/icons8-sustainability-100.png" alt="Dział realizacji i inwestycji">--}}
-{{--                </div>--}}
-{{--                <h3>Dział realizacji i inwestycji</h3>--}}
-{{--            </div>--}}
-{{--        </section>--}}
+            <div class="block">
+                <div class="icon">
+                    <img src="../common/icons/icons8-sustainability-100.png" alt="Dział realizacji i inwestycji">
+                </div>
+                <h3>Dział realizacji i inwestycji</h3>
+            </div>
+        </section>
+        <div class="clear"></div>
+        <div class="text-center">
+            <h1 style="color: white">Strona w budowie</h1>
+        </div>
         <div class="clear"></div>
 {{--        <section class="information">--}}
 {{--            <div class="textContent">--}}
@@ -152,7 +155,7 @@
 {{--                </ul>--}}
 {{--            </div>--}}
 {{--        </section>--}}
-{{----}}
+
 {{--        <section class="clients">--}}
 {{--            <h4>Zaufali nam</h4>--}}
 {{--            <div class="carousel js-flickity">--}}
@@ -191,33 +194,33 @@
     </div>
 
     <footer>
-{{--        <div class="wrapper footer-content">--}}
-{{--            <div class="data">--}}
-{{--                <div class="data-col">--}}
-{{--                    enviesa<br />--}}
-{{--                    ul. Toruńska 4 <br>--}}
-{{--                    44-100 Gliwice <br><br>--}}
-{{--                    NIP 631-265-30-34--}}
-{{--                </div>--}}
+        <div class="wrapper footer-content">
+            <div class="data">
+                <div class="data-col">
+                    enviesa<br />
+                    ul. Toruńska 4 <br>
+                    44-100 Gliwice <br><br>
+                    NIP 631-265-30-34
+                </div>
 
-{{--                <div class="data-col">--}}
-{{--                    Sąd Rejonowy w Gliwicach <br>--}}
-{{--                    X Wydział Gospodarczy <br>--}}
-{{--                    KRS 0000505556 <br>--}}
-{{--                    REGON 243536212--}}
-{{--                </div>--}}
+                <div class="data-col">
+                    Sąd Rejonowy w Gliwicach <br>
+                    X Wydział Gospodarczy <br>
+                    KRS 0000505556 <br>
+                    REGON 243536212
+                </div>
 
-{{--                <div class="data-col">--}}
-{{--                    Konto Millenium Bank <br>--}}
-{{--                    83116022020000000503654350--}}
-{{--                </div>--}}
-{{--            </div>--}}
+                <div class="data-col">
+                    Konto Millenium Bank <br>
+                    83116022020000000503654350
+                </div>
+            </div>
 
-{{--            <div class="socials">--}}
-{{--                <i class="icon"><img src="../common/icons/icons8-facebook-144.png" alt="Enviesa Facebook"></i>--}}
-{{--                <i class="icon"><img src="../common/icons/icons8-linkedin-144.png" alt="Enviesa LinkedIn"></i>--}}
-{{--                <i class="icon"><img src="../common/icons/icons8-instagram-144.png" alt="Enviesa Instagram"></i></div>--}}
-{{--        </div>--}}
+            <div class="socials">
+                <i class="icon"><img src="../common/icons/icons8-facebook-144.png" alt="Enviesa Facebook"></i>
+                <i class="icon"><img src="../common/icons/icons8-linkedin-144.png" alt="Enviesa LinkedIn"></i>
+                <i class="icon"><img src="../common/icons/icons8-instagram-144.png" alt="Enviesa Instagram"></i></div>
+        </div>
 
         <div class="separator"></div>
         <div class="wrapper">

@@ -8,7 +8,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('info');
+    return view('welcome');
 });
 
 Route::get('/produkty', [App\Http\Controllers\Front\ProduktyController::class, 'pobierzListeProduktow'])->name('front.produkty');
