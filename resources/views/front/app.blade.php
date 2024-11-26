@@ -6,8 +6,8 @@
     <title>Enviesa</title>
 
     <link rel="stylesheet" href="{{ asset('css/fonts.css')}}" />
-{{--    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />--}}
-    <link rel="stylesheet" href="{{ asset('css/styles/styles.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+{{--    <link rel="stylesheet" href="{{ asset('css/styles/styles.css') }}" />--}}
     <link rel="stylesheet" href="{{ asset('css/styles/offer.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/styles/homepage.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/styles/projects.css') }}" />
