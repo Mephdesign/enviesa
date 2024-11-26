@@ -58,31 +58,31 @@
     </header>
     <div class="wrapper">
 
-        <section class="blocks">
-            <div class="block">
-                <div class="icon">
-                    <img src="../common/icons/icons8-automotive-100.png" alt="Przygotowanie inwestycji i dział prawny">
-                </div>
-                <h3>Przygotowanie inwestycji i dział prawny</h3>
-            </div>
+{{--        <section class="blocks">--}}
+{{--            <div class="block">--}}
+{{--                <div class="icon">--}}
+{{--                    <img src="../common/icons/icons8-automotive-100.png" alt="Przygotowanie inwestycji i dział prawny">--}}
+{{--                </div>--}}
+{{--                <h3>Przygotowanie inwestycji i dział prawny</h3>--}}
+{{--            </div>--}}
 
-            <div class="block">
-                <div class="icon">
-                    <img src="../common/icons/icons8-oil-industry-100.png" alt="Pracownia projektowa">
-                </div>
-                <h3>Pracownia projektowa</h3>
-            </div>
+{{--            <div class="block">--}}
+{{--                <div class="icon">--}}
+{{--                    <img src="../common/icons/icons8-oil-industry-100.png" alt="Pracownia projektowa">--}}
+{{--                </div>--}}
+{{--                <h3>Pracownia projektowa</h3>--}}
+{{--            </div>--}}
 
-            <div class="block">
-                <div class="icon">
-                    <img src="../common/icons/icons8-sustainability-100.png" alt="Dział realizacji i inwestycji">
-                </div>
-                <h3>Dział realizacji i inwestycji</h3>
-            </div>
-        </section>
+{{--            <div class="block">--}}
+{{--                <div class="icon">--}}
+{{--                    <img src="../common/icons/icons8-sustainability-100.png" alt="Dział realizacji i inwestycji">--}}
+{{--                </div>--}}
+{{--                <h3>Dział realizacji i inwestycji</h3>--}}
+{{--            </div>--}}
+{{--        </section>--}}
         <div class="clear"></div>
-        <div class="text-center">
-            <h1 style="color: white">Strona w budowie</h1>
+        <div style="text-align: center">
+            <h1 style="color: white">Strona w budowie zapraszamy niebawem</h1>
         </div>
         <div class="clear"></div>
 {{--        <section class="information">--}}
